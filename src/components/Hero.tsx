@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import hero from '../assets/banner-stack.png';
 
 const Hero = () => {
