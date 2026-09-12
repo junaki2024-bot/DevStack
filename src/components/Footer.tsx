@@ -1,25 +1,22 @@
+import footer from "../assets/logo-text.png"
+
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white mt-20">
+    <footer className="bg-white text-white mt-20">
 
       <div className="max-w-7xl mx-auto px-6 py-14 grid grid-cols-4 gap-10">
 
         {/* Brand */}
         <div>
 
-          <h2 className="text-2xl font-bold">
-            <span className="gradient-text">
-              Dev
-            </span>{" "}
-            Stack
-          </h2>
+          <img src={footer} alt="" />
 
           <p className="text-gray-400 mt-4">
             Build your perfect developer stack
             with modern technologies.
           </p>
 
-          <div className="flex gap-4 mt-5 text-gray-400">
+          <div className="flex gap-4 mt-5 text-gray-800">
             <span>GitHub</span>
             <span>Twitter</span>
             <span>LinkedIn</span>
@@ -30,7 +27,7 @@ const Footer = () => {
         {/* Product */}
         <div>
 
-          <h3 className="font-bold mb-4">
+          <h3 className="font-bold mb-4 text-black">
             Product
           </h3>
 
@@ -51,7 +48,7 @@ const Footer = () => {
         {/* Company */}
         <div>
 
-          <h3 className="font-bold mb-4">
+          <h3 className="font-bold mb-4 text-black">
             Company
           </h3>
 
@@ -72,7 +69,7 @@ const Footer = () => {
         {/* Legal */}
         <div>
 
-          <h3 className="font-bold mb-4">
+          <h3 className="font-bold mb-4 text-black">
             Legal
           </h3>
 
