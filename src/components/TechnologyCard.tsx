@@ -1,4 +1,4 @@
-import type { Technology } from "../types/technology";
+import type { Technology } from "../types/Technology";
 
 interface TechnologyCardProps {
   technology: Technology;
@@ -30,18 +30,21 @@ const TechnologyCard = ({
 
       </div>
 
+
       {/* Name */}
-      <h3 className="text-xl font-bold mt-5">
+      <h3 className="text-xl font-bold mt-5 text-black">
         {technology.name}
       </h3>
+
 
       {/* Description */}
       <p className="text-gray-500 text-sm mt-2 h-12">
         {technology.description}
       </p>
 
+
       {/* Category & Difficulty */}
-      <div className="flex gap-2 mt-5">
+      <div className="flex gap-2 mt-5 text-black">
 
         <span className="badge badge-outline">
           {technology.category}
@@ -53,12 +56,14 @@ const TechnologyCard = ({
 
       </div>
 
+
       {/* Bottom */}
       <div className="flex justify-between items-center mt-6">
 
-        <span className="font-semibold">
+        <span className="font-semibold text-black">
           ⭐ {technology.rating}
         </span>
+
 
         <button
           onClick={() => addToStack(technology)}
@@ -66,7 +71,7 @@ const TechnologyCard = ({
           className={`px-4 py-2 rounded-lg text-sm ${
             isAdded
               ? "bg-gray-200 text-gray-500 cursor-not-allowed"
-              : "gradient-btn text-white"
+              : "bg-black text-white hover:bg-pink-300"
           }`}
         >
           {isAdded

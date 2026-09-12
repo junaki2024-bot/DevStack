@@ -9,7 +9,7 @@ import TechnologyCard from "./components/TechnologyCard";
 import YourStack from "./components/YourStack";
 import Footer from "./components/Footer";
 
-import type { Technology } from "./types/technology";
+import type { Technology } from "./types/Technology";
 
 function App() {
 
@@ -134,11 +134,11 @@ function App() {
 
         <div className="mb-10">
 
-          <p className="text-purple-600 font-semibold">
+          <p className="text-black font-semibold">
             TECHNOLOGIES
           </p>
 
-          <h2 className="text-4xl font-bold mt-2">
+          <h2 className="text-4xl font-bold mt-2 text-black">
             Choose Your Technologies
           </h2>
 
