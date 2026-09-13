@@ -134,17 +134,13 @@ function App() {
 
         <div className="mb-10">
 
-          <p className="text-black font-semibold">
-            TECHNOLOGIES
-          </p>
-
-          <h2 className="text-4xl font-bold mt-2 text-black">
-            Choose Your Technologies
+          <h2 className="text-4xl font-bold mt-2">
+           <span className="text-black">Explore the</span> <span className="text-purple-500">Technologies</span>
           </h2>
 
           <p className="text-gray-500 mt-3">
-            Select technologies to build your
-            developer stack.
+            Pick one technology per category to build 
+            your ideal stack.
           </p>
 
         </div>
